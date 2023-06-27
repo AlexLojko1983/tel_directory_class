@@ -72,3 +72,6 @@ class PhoneBook:
         if self.contact == self.not_changed:
             return False
         return True
+
+    def update_contact(self, book: dict, number: str):
+        self.contact[number] = book

@@ -30,6 +30,7 @@ def add_successful(name: str) -> str:
 
 search_word = 'Введите строку для поиска: '
 index_remove = 'Введите ID контакта, который хотите удалить: '
+index_update = 'Введите ID контакта, который хотите изменить: '
 
 
 def empty_search(word: str) -> str:
